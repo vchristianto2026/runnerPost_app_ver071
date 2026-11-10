@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #F6F5F0;
+    color: #1A1D23;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, .font-serif-royal {
+    font-family: 'Newsreader', Georgia, serif;
+  }
+
+  .font-display {
+    font-family: 'Cinzel', serif;
+  }
+
+  .font-mono-code {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom parchment styling */
+.parchment-sheet {
+  background: #FCFBF7;
+  box-shadow: 0 10px 30px -5px rgba(26, 29, 35, 0.08), 0 2px 6px -1px rgba(26, 29, 35, 0.04);
+  border: 1px solid #E6E1D6;
+}
+
+.parchment-sheet-inner {
+  background: linear-gradient(180deg, #FFFFFF 0%, #FAF8F2 100%);
+}
+
+/* Manuscript ruled lines */
+.manuscript-lines {
+  background-image: linear-gradient(#E8E3D7 1px, transparent 1px);
+  background-size: 100% 32px;
+  line-height: 32px;
+}
+
+/* Wax seal badge */
+.wax-seal {
+  background: radial-gradient(circle at 35% 35%, #A83232 0%, #7E1E1E 70%, #571212 100%);
+  box-shadow: 0 4px 10px rgba(126, 30, 30, 0.35), inset 0 2px 4px rgba(255, 255, 255, 0.2), inset 0 -2px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* Subtle dot grid for radar and map */
+.radar-grid {
+  background-image: radial-gradient(#D5CFC2 1px, transparent 1px);
+  background-size: 24px 24px;
+}

@@ -1,0 +1,196 @@
+{
+  "config": {
+    "runnerMinSpeed": 8,
+    "runnerMaxSpeed": 12,
+    "simulationMultiplier": 60,
+    "strictA4CapEnforced": true,
+    "autoBurnOnDelivery": true,
+    "birdApiMonitoringEnabled": true
+  },
+  "users": [
+    {
+      "id": "usr-admin-1",
+      "username": "admin",
+      "name": "Marshal Inspector Vane",
+      "role": "admin",
+      "stationName": "Grand Central Postal Bastion",
+      "lat": -6.2088,
+      "lng": 106.8456,
+      "status": "active",
+      "created_at": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "usr-victor-2",
+      "username": "victor",
+      "name": "Scholar Victor C.",
+      "role": "courier_sender",
+      "stationName": "Batavia Royal Academy Station",
+      "lat": -6.1754,
+      "lng": 106.8272,
+      "status": "active",
+      "created_at": "2026-01-10T00:00:00.000Z"
+    },
+    {
+      "id": "usr-hermes-3",
+      "username": "hermes",
+      "name": "Hermes of Attica",
+      "role": "courier_sender",
+      "stationName": "Athens Marathon Relay Post",
+      "lat": 37.9838,
+      "lng": 23.7275,
+      "status": "active",
+      "created_at": "2026-02-01T00:00:00.000Z"
+    },
+    {
+      "id": "usr-elena-4",
+      "username": "elena",
+      "name": "Ambassador Elena R.",
+      "role": "citizen_recipient",
+      "stationName": "Priangan Highland Embassy (Bandung)",
+      "lat": -6.9175,
+      "lng": 107.6191,
+      "status": "active",
+      "created_at": "2026-02-15T00:00:00.000Z"
+    },
+    {
+      "id": "usr-sophia-5",
+      "username": "sophia",
+      "name": "Archivist Sophia",
+      "role": "citizen_recipient",
+      "stationName": "Peloponnese Vault (Sparta)",
+      "lat": 37.0745,
+      "lng": 22.4303,
+      "status": "active",
+      "created_at": "2026-03-01T00:00:00.000Z"
+    },
+    {
+      "id": "usr-marcus-6",
+      "username": "marcus",
+      "name": "Marcus Valerius",
+      "role": "courier_sender",
+      "stationName": "Forum Romanum Outpost",
+      "lat": 41.8925,
+      "lng": 12.4853,
+      "status": "active",
+      "created_at": "2026-03-10T00:00:00.000Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "RP-MSG-1049",
+      "senderId": "usr-victor-2",
+      "senderName": "Scholar Victor C.",
+      "senderRole": "courier_sender",
+      "recipientId": "usr-elena-4",
+      "recipientName": "Ambassador Elena R.",
+      "recipientStation": "Priangan Highland Embassy (Bandung)",
+      "title": "Discourse on Deliberate Human Latency & Anti-Fatigue Communication",
+      "body": "Dearest Ambassador Elena,\n\nI pen this dispatch on standard royal manuscript velum (Format 1-A4) under the seal of the runnerPost courier guild. As our recent strategic whitepaper demonstrates, the obsession of the past three decades with millisecond latency has extracted an untenable psychological toll. Over eighty percent of our youth experience severe cognitive exhaustion under relentless instant notifications.\n\nBy tethering this epistle to the physical pace of a trained human runner—coursing between Batavia and Priangan at an measured speed of 10.4 kilometers per hour—we reclaim sovereignty of thought. Even as the runner crosses the Citarum river valley, this message remains shielded under 256-bit AES cryptographic encapsulation.\n\nPer the established security protocol, this message is marked for irrevocable ephemeral deletion upon arrival or under mid-transit sender revocation. May your reflections be deep and uninterrupted by artificial haste.\n\nYours in patience,\nVictor C.",
+      "originalWordCount": 168,
+      "originalCharCount": 994,
+      "pageFormat": "1_A4",
+      "originLocation": {
+        "name": "Batavia Royal Academy Station",
+        "lat": -6.1754,
+        "lng": 106.8272
+      },
+      "targetLocation": {
+        "name": "Priangan Highland Embassy (Bandung)",
+        "lat": -6.9175,
+        "lng": 107.6191
+      },
+      "distanceKm": 120.5,
+      "runnerSpeedKmH": 10.4,
+      "terrain": "mountain_pass",
+      "weather": "fair",
+      "effectiveSpeedKmH": 8.8,
+      "totalTransitMinutes": 821,
+      "progressPercent": 43.7,
+      "status": "IN_TRANSIT",
+      "autoDeletePolicy": "BURN_ON_DELIVERY",
+      "burnAfterDeliveredSeconds": 10,
+      "deliveredAt": null,
+      "burnedAt": null,
+      "burnReason": null,
+      "encryptionStandard": "AES-256-GCM Military Grade",
+      "digitalSignature": "SIG-256-VTR-994-BATAVIA-8A7B",
+      "waypoints": [
+        {
+          "name": "Batavia–Bandung Valley Crossing (30.1km)",
+          "km": 30.1,
+          "passed": true
+        },
+        {
+          "name": "Batavia–Bandung Highland Cairn (60.3km)",
+          "km": 60.3,
+          "passed": false
+        },
+        {
+          "name": "Batavia–Bandung Watchtower Alpha (90.4km)",
+          "km": 90.4,
+          "passed": false
+        }
+      ],
+      "createdAt": "2026-11-10T09:42:15.425Z",
+      "updatedAt": "2026-11-10T10:42:27.427Z"
+    },
+    {
+      "id": "RP-MSG-1021",
+      "senderId": "usr-hermes-3",
+      "senderName": "Hermes of Attica",
+      "senderRole": "courier_sender",
+      "recipientId": "usr-sophia-5",
+      "recipientName": "Archivist Sophia",
+      "recipientStation": "Peloponnese Vault (Sparta)",
+      "title": "Historical Proclamation of Marathon & Carrier Avian RFC-1149",
+      "body": "[CRYPTOGRAPHICALLY PURGED BY EPHEMERAL PROTOCOL — BURN ON DELIVERY EXECUTED]",
+      "originalWordCount": 312,
+      "originalCharCount": 1845,
+      "pageFormat": "1_A4",
+      "originLocation": {
+        "name": "Athens Marathon Relay Post",
+        "lat": 37.9838,
+        "lng": 23.7275
+      },
+      "targetLocation": {
+        "name": "Peloponnese Vault (Sparta)",
+        "lat": 37.0745,
+        "lng": 22.4303
+      },
+      "distanceKm": 153.2,
+      "runnerSpeedKmH": 11.2,
+      "terrain": "plains",
+      "weather": "fair",
+      "effectiveSpeedKmH": 11.2,
+      "totalTransitMinutes": 820,
+      "progressPercent": 100,
+      "status": "BURNED_DELIVERED",
+      "autoDeletePolicy": "BURN_ON_DELIVERY",
+      "burnAfterDeliveredSeconds": 5,
+      "deliveredAt": "2026-11-10T08:42:15.425Z",
+      "burnedAt": "2026-11-10T08:42:20.425Z",
+      "burnReason": "Automatic Ephemeral Burn upon Delivery Completion (1-A4 Length Threshold)",
+      "encryptionStandard": "AES-256-GCM Military Grade",
+      "digitalSignature": "SIG-256-HRM-1845-ATHENS-3F21",
+      "waypoints": [
+        {
+          "name": "Athens–Sparta Citadel Gate (38.3km)",
+          "km": 38.3,
+          "passed": true
+        },
+        {
+          "name": "Athens–Sparta River Relay Point (76.6km)",
+          "km": 76.6,
+          "passed": true
+        },
+        {
+          "name": "Athens–Sparta Courier Depot (114.9km)",
+          "km": 114.9,
+          "passed": true
+        }
+      ],
+      "createdAt": "2026-11-09T10:42:15.425Z",
+      "updatedAt": "2026-11-10T08:42:20.425Z"
+    }
+  ]
+}
